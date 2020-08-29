@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAVIGATION BAR*/
+
+nav{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: left;
+    min-height: 70px;
+    background-color: #1E1E1E;
+}
+
+.logo {
+    cursor: pointer;
+    color: rgb(224, 224, 224);
+    margin-left: 40px;
+    padding-top: 21px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px
+}
+
+.nav-text {
+    cursor: pointer;
+    display: flex;
+    color: rgb(224, 224, 224);
+    margin-left: 50px;
+    padding-top: 23px;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-text li{
+    display: inline-block;
+    margin-right: 20px;
+    min-width: 80px;
+    list-style: none;
+}
+
+.themeicon {
+    list-style: none;
+    margin-left: 50%;
+    margin-right: 20px;
+    padding-top: 23px;
+    display: flex;
+    color: rgb(224, 224, 224);
+}
+
+
+.themeicon li{
+    display: flex;
+    margin-right: 20%;
+    min-width: 50px;
+    list-style: none;
+}
+
+
+.burger {
+    cursor: pointer;
+    padding-top: 18px;
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(224, 224, 224);;
+    margin: 4px;
+}
+
+
+/*MAIN TEXT*/
+
+.main {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+}
+
+div:focus {
+    outline: none;
+}
+
+.heading {
+    font-size: 48px;
+    padding-top: 30px;
+}
+
+.content {
+    padding-top: 10px;
+    font-size: 20px;
+}
+

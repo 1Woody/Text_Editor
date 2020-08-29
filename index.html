@@ -4,28 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Editor</title>
-    <link rel="stylesheet" href="/Text Editor/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Text_Editor/css/styles.css">
+    <link rel="stylesheet" href="/Text_Editor/css/responsive.css">
+    <link rel="stylesheet" href="/Text_Editor/vendor/css/normalize.css" />
+    <link rel="stylesheet" href="/Text_Editor/vendor/css/fontawesome.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li class="logo">Notes</li>
-                <li>profile</li>
-            </ul>
-        </nav>
-
-    </header>
-
+    <nav>
+        <div class="logo">
+            <h4>Notes</h4>
+        </div>
+        <ul class="nav-text">
+            <li>Start Over</li>    
+            <li>Save it</li>
+        </ul>
+        <div class="themeicon">
+            <i class="fas fa-adjust"></i>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
     <section class="main">
-        <h2>Write here</h2>
-            <div class="editor" contenteditable="true"></div>
+        <div class="heading" contenteditable="true">Untitled Story</div>
+        <div class="content" contenteditable="true">Text</div>
     </section>
-    </main>
 
-    <footer>
-
-    </footer>
-    
+    <script src="/Text_Editor/javascript/app.js"></script>
 </body>
 </html>
