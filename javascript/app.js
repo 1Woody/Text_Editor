@@ -5,4 +5,7 @@ burger.addEventListener('click', menu);
 
 function menu(){
     nav.classList.toggle('nav-active');
+    //burger animation
+    burger.classList.toggle('toggle');
 }
+
